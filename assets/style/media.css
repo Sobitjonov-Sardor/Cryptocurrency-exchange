@@ -1,0 +1,171 @@
+@media (max-width: 1424.99px) {
+    .info__graphs {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .info__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .b::before {
+        display: none;
+        background: none;
+    } */
+    .info__main__cards {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800.99px) {
+    .info__graph__main {
+        max-width: 500px;
+    }
+
+    .info__graph__main img {
+        width: 100%;
+    }
+
+    .nav__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .nav__vidgets {
+        gap: 8px;
+    }
+
+    .backArrow {
+        right: 5%;
+    }
+
+    .nav__icons {
+        gap: 10px;
+    }
+
+    .a::before {
+        display: none;
+        background: none;
+    }
+
+    .a::after {
+        display: none;
+        background: none;
+    }
+
+    .b::before {
+        display: none;
+        background: none;
+    }
+
+    .b::after {
+        display: none;
+        background: none;
+    }
+
+    .c::before {
+        display: none;
+        background: none;
+    }
+
+    .c::after {
+        display: none;
+        background: none;
+    }
+
+    .main__card1 {
+        max-width: 500px;
+    }
+
+    .main__card2 {
+        max-width: 500px;
+    }
+
+    .main__card1__imgs {
+        display: none;
+    }
+
+    .search {
+        max-width: 90px;
+    }
+}
+
+
+@media (max-width: 679.99px) {
+    .main__card1 {
+        max-width: 400px;
+    }
+
+    .main__card2 {
+        max-width: 400px;
+    }
+
+    .info__graph__main {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 579.99px) {
+    .main__card1 {
+        max-width: 300px;
+    }
+
+    .main__card2 {
+        max-width: 300px;
+        padding: 15px 7px 15px;
+    }
+
+    .info__graph__main {
+        max-width: 300px;
+    }
+
+    .home {
+        padding: 16px 18px;
+    }
+
+    .sitebar {
+        padding: 41.5px 20px 30px 22px;
+    }
+
+    .main__card2__eth {
+        padding: 9px 10.1px 7px 10px;
+    }
+
+    .main__card2__data p {
+        padding: 9px 10.1px 7px 10px;
+    }
+
+    .info__graph__price {
+        padding: 15px 15px;
+    }
+
+    .price__content {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .price__name {
+        gap: 11px;
+        min-width: 50px;
+    }
+    .price__lastPrice {
+        gap: 11.5px;
+        min-width: 40px;
+    }
+}
+
+@media (max-width: 430.99px){
+    .sitebar {
+        display: none;
+    }
+}
